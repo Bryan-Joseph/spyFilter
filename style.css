@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(90deg,black,blue,black)
+}
+
+canvas{
+    border:20px ridge red;
+
+    animation: borderChange 5s linear infinite;
+}
+
+@keyframes borderChange {
+    0%{border-color: red;}
+    14%{border-color: yellow;}
+    28%{border-color: greenyellow;}
+    42%{border-color: green;}
+    56%{border-color: cyan;}
+    70%{border-color: blue;}
+    84%{border-color: purple;}
+    100%{border-color: red;}
+}
+
+/* button {
+    animation: button 3s ease-in-out infinite;
+}
+
+@keyframes button {
+    0%{background-color:red; border:none}
+    50%{background-color:green; border:none; transform: scale(1.2);}
+    100%{background-color:red; border:none}
+} */
